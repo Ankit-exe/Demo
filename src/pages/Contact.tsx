@@ -75,7 +75,7 @@ export const Contact = () => {
                   <label className="font-semibold text-sm">Message</label>
                   <textarea className="border-2  border-border-gray rounded-lg min-h-40 max-h-60 p-2" />
                 </div>
-                <button className="bg-purple text-white py-2 rounded-lg">
+                <button className="bg-purple text-white py-2 rounded-lg hover:bg-purple-light duration-150">
                   Send
                 </button>
               </form>

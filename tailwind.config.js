@@ -14,7 +14,9 @@ export default {
     colors: {
       'cream': '#f5efe0',
       'purple': '#6059c9',
+      'purple-light': '#7e78d3',
       'yellow': '#ffc20e',
+      'lime-yellow': '#ffd633',
       'white':'#ffffff',
       'brown':'#22130c',
       'lightgray':'#f2f2f2',

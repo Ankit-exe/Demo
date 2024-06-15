@@ -33,7 +33,7 @@ export const MainNav = () => {
           </div>
         </div>
       </div>
-      <div className="bg-purple px-5 rounded-lg py-1.5 flex items-center gap-2">
+      <div className="bg-purple px-5 rounded-lg py-1.5 flex items-center gap-2 hover:bg-purple-light duration-150 cursor-pointer">
         <EditFilled className="text-white" />
         <button className="text-white text-xs font-medium">
           Start a campaign

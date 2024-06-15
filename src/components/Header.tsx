@@ -34,7 +34,7 @@ export const Header = () => {
             <Link to="/sign-up" className="flex items-center">
               <button
                 type="button"
-                className="bg-yellow px-2 md:px-5 py-1.5 text-white font-medium rounded-l-lg text-xs flex items-center"
+                className="bg-yellow px-2 md:px-5 py-1.5 text-white font-medium rounded-l-lg text-xs flex items-center hover:bg-lime-yellow duration-150"
               >
                 Sign up
               </button>
@@ -42,7 +42,7 @@ export const Header = () => {
             <Link to="/sign-in" className="flex items-center text-center">
               <button
                 type="button"
-                className="bg-purple px-2 md:px-5 py-1.5 font-medium rounded-r-lg text-xs flex items-center text-white"
+                className="bg-purple px-2 md:px-5 py-1.5 font-medium rounded-r-lg text-xs flex items-center text-white hover:bg-purple-light duration-150"
               >
                 Sign in
               </button>

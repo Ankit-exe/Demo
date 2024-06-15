@@ -47,7 +47,7 @@ export const Team = () => {
                   initial={{ y: 100, opacity: 0 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay:0.7 }}
-                  className="font-normal text-sm bg-purple rounded-lg px-8 py-2 flex justify-center content-center"
+                  className="font-normal text-sm bg-purple rounded-lg px-8 py-2 flex justify-center content-center hover:bg-purple-light duration-150"
                 >
                   See all members
                 </motion.button>
