@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export const Contact = () => {
   return (
-    <div className="py-20 overflow-hidden">
+    <div className="py-20 overflow-hidden mb-20">
       <div className="h-screen mb-20">
         <div className="h-[90%] bg-purple w-full relative">
           <div className="text-center text-4xl text-white font-semibold flex flex-col py-20 gap-3">

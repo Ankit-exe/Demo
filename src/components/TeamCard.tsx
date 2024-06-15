@@ -11,7 +11,7 @@ export const TeamCard = ({ img, empname, emppost }: Props) => {
     <motion.div
       initial={{ x: 100, opacity: 0 }}
       whileInView={{ opacity: 1, x: 0 }}
-      transition={{ duration: 1 }}
+      transition={{ duration: 1, delay: 1 }}
       className="relative w-48 flex justify-center"
     >
       <motion.img

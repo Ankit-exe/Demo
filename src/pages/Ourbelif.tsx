@@ -16,8 +16,8 @@ export const Ourbelif = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-gray">
           <div>
             <motion.p
-              initial={{ y: 100, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
+              initial={{ x: -100, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5,delay:0.5 }}
             >
               We are here with a simple and clear mission is building a powerful
@@ -27,9 +27,9 @@ export const Ourbelif = () => {
           </div>
           <div>
             <motion.p
-              initial={{ y: 100, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.9,delay:1 }}
+              initial={{ x: 100, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.9,delay:0.7 }}
             >
               At Conikal, We believe that the power to chnage the world is in
               all human beings, we also believe that when everyone speaks out
