@@ -27,6 +27,9 @@ export const Home = () => {
           </motion.p>
         </div>
       </section>
+
+      {/* IMAGE */}
+      
       <div className="bottom-0 left-0 w-[80%] md:w-auto  md:max-w-[60%] lg:max-w-[49%]">
         <motion.img
           initial={{ y: 100, opacity: 0 }}

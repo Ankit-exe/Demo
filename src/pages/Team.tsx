@@ -7,6 +7,8 @@ export const Team = () => {
   return (
     <div className="flex flex-col overflow-hidden">
       <div className=" text-white bg-purple">
+        {/* Animated NUMBERS */}
+
         <div className="flex flex-col gap-8 lg:flex-row justify-between container mx-auto py-10">
           <div className="flex flex-col text-center">
             <AnimatedNumber target={20000} />
@@ -21,6 +23,9 @@ export const Team = () => {
             <p className="text-sm font-light">Donations</p>
           </div>
         </div>
+
+        {/* TEAM DESC */}
+
         <div className="bg-white py-16">
           <div className="py-10  container mx-auto flex flex-col md:flex-col lg:flex-row gap-5">
             <div className="flex flex-col gap-20">
@@ -46,13 +51,16 @@ export const Team = () => {
                 <motion.button
                   initial={{ y: 100, opacity: 0 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay:0.7 }}
+                  transition={{ duration: 0.5, delay: 0.7 }}
                   className="font-normal text-sm bg-purple rounded-lg px-8 py-2 flex justify-center content-center hover:bg-purple-light duration-150"
                 >
                   See all members
                 </motion.button>
               </div>
             </div>
+
+            {/* TEAM CARD */}
+
             <div className="flex flex-col md:flex-row gap-16 md:gap-4 justify-end items-center mt-10 flex-1">
               {team.map((item) => (
                 <TeamCard

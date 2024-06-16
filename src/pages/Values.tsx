@@ -5,6 +5,9 @@ export const Values = () => {
   return (
     <div className="h-[120vh] md:h-[100vh] bg-cream mt-10 relative">
       <div className="container mx-auto">
+
+        {/* SVG */}
+        
         <div className="custom-shape-divider-top-1718360429 transform scale-x-[-1] overflow-hidden ">
           <svg
             data-name="Layer 1"

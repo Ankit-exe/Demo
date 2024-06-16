@@ -18,6 +18,9 @@ export const Story = () => {
           >
             Our story
           </motion.h1>
+
+          {/* Story desc */}
+          
           {story.map((item) => (
             <motion.div
               key={item.desc1}

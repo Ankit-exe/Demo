@@ -22,7 +22,9 @@ export default {
       'lightgray':'#f2f2f2',
       'gray':'#4a5568',
       'black':'#111111',
-      'border-gray':'#E8E8E8'
+      'border-gray':'#E8E8E8',
+      'red':'#ff1a1a',
+      'green':'00cc00'
     },
     extend: {},
   },
