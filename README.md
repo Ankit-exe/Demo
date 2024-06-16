@@ -77,7 +77,7 @@ The project follows a modular structure with separation of concerns. Here's an o
 - **React** : A JavaScript library for building user interfaces. 
  - **React Router**: For routing and navigation. 
  - **Zod**: For form validation. 
- - **react-hook-from**:For form queries
+ - **react-hook-form**:For form queries
 - **Framer motion**: For various animation. 
  - **Tailwind**: For css styling. 
  - **Typescript**:For type safety.
