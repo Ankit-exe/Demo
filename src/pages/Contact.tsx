@@ -59,7 +59,7 @@ export const Contact = () => {
 
 
   return (
-    <div className="py-20 overflow-hidden mb-20">
+    <div className="py-60 overflow-hidden mb-20">
       {formSubmitted && <FormSuccess />}
       <div className="h-screen mb-20">
         <div className="h-[90%] bg-purple w-full relative">
